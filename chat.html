@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT - clone</title>
+    <!-- CSS Fayllar -->
+    <link rel="stylesheet" href="assets/css/chat.css">
+    <link rel="stylesheet" href="assets/css/loader.css">
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/logo.png">
+    <!-- ICON -->
+    <link rel="stylesheet" href="assets/vendor/boxicons/css/boxicons.css">
+</head>
+
+<body>
+    <!-- Loader start -->
+    <div class="loader"></div>
+    <!-- Main -->
+    <main id="myDiv">
+        <div class="chat-container">
+        </div>
+        <!-- typing container -->
+        <div class="typing-container">
+            <div class="typing-content">
+                <div class="typing-textarea">
+                    <textarea placeholder="So'rov jo'nating" id="chat-input" required></textarea>
+                    <i class="bx bx-send" id="send-btn"></i>
+                </div>
+                <div class="typing-controls">
+                    <i class="bx bx-sun" id="theme-btn" title="Mavzuni o'zgartirish"></i>
+                    <i class="bx bx-trash" id="delete-btn" title="Barchasini o'chirish"></i>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- JavaScript -->
+    <script src="assets/js/loader.js"></script>
+    <script src="assets/js/chat.js" defer></script>
+</body>
+
+</html>
